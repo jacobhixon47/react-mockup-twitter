@@ -27,6 +27,21 @@ function SearchBar() {
   );
 }
 
+function HeaderButton(props) {
+  return (
+    <button type="button" style={{
+      padding: '1%',
+      marginRight: '1%',
+      flexBasis: '15%',
+      border: '1px solid blue',
+      borderRadius: '25px',
+      color: 'blue',
+      backgroundColor: 'transparent'
+    }}>
+      {props.name}
+    </button>
+  );
+}
 
 function Header() {
   return (
@@ -45,33 +60,9 @@ function Header() {
         justifyContent: 'flex-start',
         flexGrow: '3'
       }}>
-        <button type="button" style={{
-          padding: '1%',
-          marginRight: '1%',
-          flexBasis: '15%',
-          color: 'blue',
-          backgroundColor: 'transparent',
-          border: '1px solid blue',
-          borderRadius: '25px'
-        }}>Home</button>
-        <button type="button" style={{
-          padding: '1%',
-          marginRight: '1%',
-          flexBasis: '15%',
-          color: 'blue',
-          backgroundColor: 'transparent',
-          border: '1px solid blue',
-          borderRadius: '25px'
-        }}>Notifications</button>
-        <button type="button" style={{
-          padding: '1%',
-          marginRight: '1%',
-          flexBasis: '15%',
-          color: 'blue',
-          backgroundColor: 'transparent',
-          border: '1px solid blue',
-          borderRadius: '25px'
-        }}>Messages</button>
+        <HeaderButton name="Home" />
+        <HeaderButton name="Notifications" />
+        <HeaderButton name="Messages" />
       </div>
       <SearchBar />
     </div>
