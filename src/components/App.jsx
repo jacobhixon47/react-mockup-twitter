@@ -7,7 +7,7 @@ function SearchBar() {
     <div style={{
       display: 'flex',
       flexDirection: 'row',
-      padding: "0.5%",
+      padding: '0.5%',
       flexGrow: '1'
     }}>
       <input placeholder="Search" style={{
@@ -31,12 +31,12 @@ function SearchBar() {
 function Header() {
   return (
     <div style={{
-      padding: "1%",
-      borderBottom: "2px solid blue",
+      padding: '1%',
+      borderBottom: '2px solid blue',
       backgroundColor: 'white',
-      display: "inline-flex",
-      flexDirection: "row",
-      justifyContent: "space-between",
+      display: 'inline-flex',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
       height: '60px'
     }}>
       <div style={{
@@ -46,7 +46,7 @@ function Header() {
         flexGrow: '3'
       }}>
         <button type="button" style={{
-          padding: "1%",
+          padding: '1%',
           marginRight: '1%',
           flexBasis: '15%',
           color: 'blue',
@@ -55,7 +55,7 @@ function Header() {
           borderRadius: '25px'
         }}>Home</button>
         <button type="button" style={{
-          padding: "1%",
+          padding: '1%',
           marginRight: '1%',
           flexBasis: '15%',
           color: 'blue',
@@ -64,7 +64,7 @@ function Header() {
           borderRadius: '25px'
         }}>Notifications</button>
         <button type="button" style={{
-          padding: "1%",
+          padding: '1%',
           marginRight: '1%',
           flexBasis: '15%',
           color: 'blue',
@@ -82,7 +82,7 @@ function AboutMe() {
   return (
     <div style={{
       backgroundColor: 'white',
-      padding: "5%"
+      padding: '5%'
     }}>
       <p>
         Lorem ipsum dolor amet umami four dollar toast microdosing, kogi unicorn glossier forage paleo wolf godard bespoke meggings kinfolk iPhone seitan. Yuccie retro art party coloring book hella actually truffaut cloud bread hell of hoodie lomo. Swag heirloom wayfarers, succulents meh church-key pok pok hoodie. Pork belly before they sold out PBR&B subway tile chicharrones fanny pack XOXO fingerstache skateboard master cleanse offal. You probably haven't heard of them ethical glossier helvetica kale chips meggings.
@@ -94,20 +94,20 @@ function AboutMe() {
 function ProfileDisplay() {
   return (
     <div style={{
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "flex-start",
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'flex-start',
       flexGrow: '1',
       maxWidth: '23vw'
     }}>
       <div style={{
-        display: "flex",
-        flexDirection: "column",
+        display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'flex-end',
         height: '17vw',
         background: 'linear-gradient(180deg, blue 53%, white 47%)',
-        padding: "5%",
-        marginBottom: "2%"
+        padding: '5%',
+        marginBottom: '2%'
       }}>
         <div style={{
           display: 'flex',
@@ -146,9 +146,9 @@ function ProfileDisplay() {
 function Tweet() {
   return (
     <div style={{
-      display: "flex",
-      flexDirection: "row",
-      padding: "3%",
+      display: 'flex',
+      flexDirection: 'row',
+      padding: '3%',
       backgroundColor: 'white',
       marginBottom: '2%'
     }}>
@@ -161,9 +161,9 @@ function Tweet() {
         }}/>
       </div>
       <div style={{
-        flexGrow: "2",
+        flexGrow: '2',
         width: '100%',
-        margin: "0px",
+        margin: '0px',
         paddingLeft: '4%'
       }}>
         <h4 style={{
@@ -178,8 +178,8 @@ function Tweet() {
 function TweetList() {
   return (
     <div style={{
-      display: "flex",
-      flexDirection: "column"
+      display: 'flex',
+      flexDirection: 'column'
     }}>
       <Tweet />
       <Tweet />
@@ -194,7 +194,7 @@ function TweetList() {
 function NewTweet() {
   return (
     <div style={{
-      padding: "3%",
+      padding: '3%',
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'space-between',
@@ -203,7 +203,7 @@ function NewTweet() {
       marginBottom: '2%'
     }}>
       <input placeholder="What's Poppin'?" style={{
-        padding: "2%",
+        padding: '2%',
         flexGrow: '2',
         marginRight: '10px',
         borderRadius: '25px',
@@ -223,8 +223,8 @@ function NewTweet() {
 function Timeline() {
   return (
     <div style={{
-      display: "inline-flex",
-      flexDirection: "column",
+      display: 'inline-flex',
+      flexDirection: 'column',
       flexGrow: '2',
       maxWidth: '50vw'
     }}>
@@ -253,9 +253,9 @@ function Friend() {
         }}/>
       </div>
       <div style={{
-        flexGrow: "2",
+        flexGrow: '2',
         width: '100%',
-        margin: "0px",
+        margin: '0px',
         paddingLeft: '4%'
       }}>
         <h4 style={{
@@ -278,7 +278,7 @@ function AddFriends() {
     <div style={{
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: "flex-start",
+      justifyContent: 'flex-start',
       flexGrow: '1',
       maxWidth: '23vw'
     }}>
@@ -298,9 +298,9 @@ function AddFriends() {
 function MainContent() {
   return (
     <div style={{
-      display: "flex",
-      flexDirection: "row",
-      justifyContent: "space-around",
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'space-around',
       alignItems: 'flex-start',
       paddingTop: '1%',
       overflow: 'scroll'
@@ -319,9 +319,9 @@ function App(){
       backgroundColor: '#eeeeee',
       width: '100vw',
       height: '100vh',
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "flex-start"
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'flex-start'
     }}>
       <Header/>
       <MainContent/>
